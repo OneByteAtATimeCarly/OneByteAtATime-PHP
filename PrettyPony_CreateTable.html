@@ -1,0 +1,77 @@
+
+<HTML>   
+<HEAD>
+    <TITLE>Create New Table</TITLE>
+   
+<STYLE>
+BODY,TD 
+{
+	font-family: Calibri; font-size: 16; COLOR: white; BACKGROUND: black;
+        SCROLLBAR-FACE-COLOR: #000000; SCROLLBAR-HIGHLIGHT-COLOR: #6666CC; 
+        SCROLLBAR-SHADOW-COLOR: #6666CC; SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+        SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #6666CC; 
+        SCROLLBAR-DARKSHADOW-COLOR: #000000;
+}
+
+A { color:lavender; text-decoration:none; }
+A:hover { color:red; }
+</STYLE>     
+    
+</HEAD>
+
+    <BODY>
+    <BR>
+<BR>   
+
+    <TABLE ALIGN="CENTER" WIDTH="90%">
+    <TH ALIGN="center" COLSPAN="3" STYLE="color: pink; font-family: Comic Sans MS; font-size: 32;">
+        Create New Table
+    </TH>
+    <TR>
+   
+    <TD ALIGN="right" VALIGN="top"><IMG SRC="Fluttershy_14.jpg" WIDTH="200" HEIGHT="200"></TD>   
+    
+    <TD>
+         <BR>
+         <FORM NAME="CreateTable" METHOD="post" ACTION="PrettyPony_Core_Functions.php">
+             
+         <INPUT NAME="MainMenuChoice" TYPE="hidden" value="6"> 
+         
+         <TABLE BORDER="3" WIDTH="95%" ALIGN="center" STYLE="font-family: Calibri;">
+         <TR STYLE="color: black; background: white;">
+         <TH ALIGN="center" COLSPAN="2">Create New Table</TH>
+         </TR>
+        <TR><TD>&nbsp;Table Name:</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="TableName" SIZE="45"/></TD></TR>
+        <TR><TD>&nbsp;Field 1 Name:</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field1Name" SIZE="45"></TD></TR>
+        <TR><TD>&nbsp;Field 1 Type:</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field1Type" SIZE="45"></TD></TR>
+        <TR><TD>&nbsp;Field 2 Name::</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field2Name" SIZE="45"/></TD></TR>
+        <TR><TD>&nbsp;Field 2 Type:</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field2Type" SIZE="45"></TD></TR>
+        <TR><TD>&nbsp;Field 3 Name::</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field3Name" SIZE="45"/></TD></TR>
+        <TR><TD>&nbsp;Field 3 Type:</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field3Type" SIZE="45"></TD></TR>
+        <TR><TD>&nbsp;Field 4 Name::</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field4Name" SIZE="45"/></TD></TR>
+        <TR><TD>&nbsp;Field 4 Type:</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field4Type" SIZE="45"></TD></TR>
+        <TR><TD>&nbsp;Field 5 Name::</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field5Name" SIZE="45"/></TD></TR>
+        <TR><TD>&nbsp;Field 5 Type:</TD><TD>&nbsp;&nbsp;<INPUT TYPE="text" NAME="Field5Type" SIZE="45"></TD></TR>
+        </TABLE>
+        <BR>
+        <CENTER>
+          <INPUT TYPE="reset" VALUE="RESET">&nbsp;&nbsp;&nbsp; 
+          <INPUT TYPE="submit" VALUE="CREATE TABLE"> 
+        </CENTER>     
+        
+        </FORM>
+    
+    <CENTER>
+        <A HREF="#" onClick="history.go(-1)">BACK</A>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <A HREF="PrettyPony_Main_Menu.html">MAIN MENU</A>   
+    </CENTER>
+    
+    </TD>
+    
+    <TD ALIGN="left" VALIGN="top"><IMG SRC="Fluttershy_6.jpg" WIDTH="200" HEIGHT="200"></TD> 
+    
+    </TR></TABLE>
+    <CENTER><IMG SRC="Fluttershy_1.jpg" WIDTH="200" HEIGHT="100"></CENTER>
+    </BODY>
+</HTML>

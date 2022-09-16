@@ -1,0 +1,93 @@
+
+<HTML>   
+<HEAD>
+    <TITLE>Pretty Ponies! Main Menu</TITLE>
+   
+<STYLE>
+BODY,TD 
+{
+	font-family: Calibri; font-size: 16; COLOR: white; BACKGROUND: black;
+        SCROLLBAR-FACE-COLOR: #000000; SCROLLBAR-HIGHLIGHT-COLOR: #6666CC; 
+        SCROLLBAR-SHADOW-COLOR: #6666CC; SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+        SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #6666CC; 
+        SCROLLBAR-DARKSHADOW-COLOR: #000000;
+}
+
+A { color:lavender; text-decoration:none; }
+A:hover { color:red; }
+</STYLE>     
+    
+</HEAD>
+    
+    <BODY>
+    <BR><BR><BR> 
+        
+    <TABLE ALIGN="CENTER" WIDTH="90%">
+    <TH ALIGN="center" COLSPAN="3" STYLE="color: pink; font-family: Comic Sans MS; font-size: 32;">
+        Pretty Ponies! Main Menu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR><BR>    
+    </TH>
+    <TR>
+        <TD ALIGN="right" VALIGN="top"><IMG SRC="Fluttershy_10.jpg" WIDTH="140" HEIGHT="250"></TD>
+        
+        <TD>
+        <FORM NAME="MainMenu" METHOD="post" ACTION="PrettyPony_Core_Functions.php">    
+        <TABLE BORDER="3" ALIGN="center" WIDTH="90%" CELLSPACING="1">
+        <TR STYLE="color: black; background: white;">
+        <TH ALIGN="center" COLSPAN="4">Main Menu</TH>
+        </TR>
+        <TR>
+            <TD>&nbsp;1. Display Ponies </TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" VALUE="1" onclick="document.MainMenu.submit()" CHECKED/></TD>
+            <TD>&nbsp;6. Create Table</TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" onclick="location.href='PrettyPony_CreateTable.html'"/></TD>
+        </TR>
+        <TR>
+            <TD>&nbsp;2. Search Ponies </TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" onclick="location.href='PrettyPony_SearchPonies.html'"/></TD>
+            <TD>&nbsp;7. Drop Table</TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" onclick="location.href='PrettyPony_DeleteTable.html'"/></TD>
+        </TR>
+        <TR>
+            <TD>&nbsp;3. Add Ponies</TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" onclick="location.href='PrettyPony_AddPony.html'"/></TD>
+            <TD>&nbsp;8. Modify Table</TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" onclick="location.href='PrettyPony_ModifyTable.html'"/></TD>
+        </TR>
+        <TR>
+            <TD>&nbsp;4. Modify Ponies</TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" onclick="location.href='PrettyPony_ModifyPony.html'"/></TD>
+            <TD>&nbsp;9. Display Attributes 1</TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" onclick="location.href='PrettyPony_DisplayAttribute1.html'"/></TD>
+        </TR>
+        <TR>
+            <TD>&nbsp;5. Delete Pony</TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" onclick="location.href='PrettyPony_DeletePony.html'"/></TD>
+            <TD>&nbsp;10. Display Attributes 2< :-)</TD>
+            <TD><INPUT TYPE="radio" NAME="MainMenuChoice" onclick="location.href='PrettyPony_DisplayAttribute2.html'"/></TD>
+        </TR>
+        </TABLE>
+    
+        <CENTER>
+        <BR>Search String:&nbsp;<INPUT TYPE="text" NAME="SearchString" SIZE="25"/>
+        <BR><BR> 
+        <INPUT TYPE="reset" VALUE="RESET">&nbsp;&nbsp;&nbsp; 
+        <INPUT TYPE="submit" VALUE="EXECUTE">
+        </CENTER>
+        </FORM> 
+        <CENTER>
+        <A HREF="#" onClick="history.go(-1)">BACK</A>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <A HREF="PrettyPony_Main_Menu.html">MAIN MENU</A><BR><BR>
+        <IMG SRC="Fluttershy_1.jpg" WIDTH="200" HEIGHT="100">
+        </CENTER>         
+        </TD>
+        
+        <TD ALIGN="left" VALIGN="top"><IMG SRC="Fluttershy_13.jpg" WIDTH="200" HEIGHT="250"></TD>
+        
+        </TR>
+        
+</TABLE>
+    
+</BODY>
+    
+</HTML>

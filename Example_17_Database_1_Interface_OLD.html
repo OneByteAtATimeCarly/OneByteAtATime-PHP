@@ -1,0 +1,64 @@
+
+<HTML>   
+
+<HEAD><TITLE>INTERFACE - PHP MySQL Functions</TITLE></HEAD>
+    
+    <BODY STYLE="color: white; background: black; font-family: Calibri;">
+    <BR>
+    <CENTER>INTERFACE - PHP MySQL Functions</CENTER><BR>   
+    
+    <FORM NAME="MainMenu" METHOD="post" ACTION="Example_17_Database_1.php">
+        
+        <TABLE ALIGN="CENTER" WIDTH="40%"><TR>
+        <TD>
+        
+        <TABLE BORDER="3" WIDTH="75%" ALIGN="center" STYLE="font-family: Calibri;">
+
+        <TR STYLE="color: #000000; background: white;">
+        <TH ALIGN="center" COLSPAN="2">Main Menu</TH>
+        </TR>
+        <TR><TD>1. Create Table </TD><TD><INPUT TYPE="radio" NAME="MainMenuChoice" VALUE="1"/></TD></TR>
+        <TR><TD>2. Drop Table </TD><TD><INPUT TYPE="radio" NAME="MainMenuChoice" VALUE="2"/></TD></TR>
+        <TR><TD>3. Insert Into Table 1</TD><TD><INPUT TYPE="radio" NAME="MainMenuChoice" VALUE="3"/></TD></TR>
+        <TR><TD>4. Insert Into Table 2</TD><TD><INPUT TYPE="radio" NAME="MainMenuChoice" VALUE="4"/></TD></TR>
+        <TR><TD>5. Delete From Table</TD><TD><INPUT TYPE="radio" NAME="MainMenuChoice" VALUE="5"/></TD></TR>
+        <TR><TD>6. Modify Table</TD><TD><INPUT TYPE="radio" NAME="MainMenuChoice" VALUE="6"/></TD></TR>
+        <TR><TD>7. Display Table</TD><TD><INPUT TYPE="radio" NAME="MainMenuChoice" VALUE="7" CHECKED/></TD></TR>
+        <TR><TD>8. Search Table</TD><TD><INPUT TYPE="radio" NAME="MainMenuChoice" VALUE="8"/></TD></TR>
+
+        </TABLE>
+        <BR>
+        </TD>
+        
+        <TD>
+        <TABLE BORDER="3" WIDTH="75%" ALIGN="center" STYLE="font-family: Calibri;">
+        <TR STYLE="color: #000000; background: white;">
+        <TH ALIGN="center" COLSPAN="2">Search Menu Options</TH>
+        </TR>
+        <TR><TD>1. Pony Name</TD><TD><INPUT TYPE="radio" NAME="SearchMenuChoice" VALUE="PonyName" CHECKED/></TD></TR>
+        <TR><TD>2. Age</TD><TD><INPUT TYPE="radio" NAME="SearchMenuChoice" VALUE="Age"/></TD></TR>
+        <TR><TD>3. Ability</TD><TD><INPUT TYPE="radio" NAME="SearchMenuChoice" VALUE="Ability"/></TD></TR>
+        <TR><TD>4. Health</TD><TD><INPUT TYPE="radio" NAME="SearchMenuChoice" VALUE="Health"/></TD></TR>
+        <TR><TD>5. Birth Date</TD><TD><INPUT TYPE="radio" NAME="SearchMenuChoice" VALUE="BirthDate"/></TD></TR>
+        <TR><TD>6. ID</TD><TD><INPUT TYPE="radio" NAME="SearchMenuChoice" VALUE="ID"/></TD></TR>
+        </TABLE>
+        
+        </TD>
+        </TR></TABLE>
+        
+        <CENTER>
+          Search String: <INPUT TYPE="text" NAME="SearchString" SIZE="25"/>
+          <BR><BR> 
+          <INPUT TYPE="reset" VALUE="RESET">&nbsp;&nbsp;&nbsp; 
+          <INPUT TYPE="submit" VALUE="EXECUTE"> 
+        </CENTER>     
+        
+    </FORM>
+    <CENTER>
+        <!-- Example 1: Changing Link attributes with Javascript -->
+        <A HREF="index.html" style="color: white; text-decoration: none;" 
+           onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'">
+            HOME</A>   
+    </CENTER>
+    </BODY>
+</HTML>
